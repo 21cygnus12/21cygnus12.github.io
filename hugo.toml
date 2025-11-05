@@ -24,7 +24,7 @@ showLanguageSelector = false
 fullWidthTheme = false
 
 # center theme with default width
-centerTheme = false
+centerTheme = true
 
 # if your resource directory contains an image called `cover.(jpg|png|webp)`,
 # then the file will be used as a cover automatically.
@@ -74,7 +74,7 @@ site = ""
 [languages]
 [languages.en]
 languageName = "English"
-title = "Terminal"
+title = "21cygnus12"
 
 [languages.en.params]
 subtitle = "A simple, retro theme for Hugo"
@@ -92,18 +92,19 @@ minuteReadingTime = "min read"
 words = "words"
 
 [languages.en.params.logo]
-logoText = "Terminal"
+logoText = "21cygnus12"
 logoHomeLink = "/"
 
 [languages.en.menu]
 [[languages.en.menu.main]]
-identifier = "about"
-name = "About"
-url = "/about"
+identifier = "blog"
+name = "blog"
+url = "/blog"
+
 [[languages.en.menu.main]]
-identifier = "showcase"
-name = "Showcase"
-url = "/showcase"
+identifier = "github"
+name = "github"
+url = "https://github.com/21cygnus12"
 
 # [module]
 # In case you would like to make changes to the theme and keep it locally in you repository,
